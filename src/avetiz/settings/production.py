@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '7_1n295%!h^7y$a5c(g-mz1ge3ru3dh=ott#q
 DEBUG = False
 
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['avetiz.herokuapp.com']
 
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'youremail@gmail.com'
